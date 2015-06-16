@@ -1,0 +1,148 @@
+body {
+	background-color: #505050;
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 1420px;
+	position: relative;
+}
+.block {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 10px 10px 10px 0px #000000;
+	-webkit-box-shadow: 10px 10px 10px 0px #000000;
+	-o-box-shadow: 10px 10px 10px 0px #000000;
+	box-shadow: 10px 10px 10px 0px #000000;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5);
+}
+
+#header {
+	background-color: #909090;
+	height: 137px;
+	width: 1420px;
+	margin: 18px 0 20px;
+	position: relative;
+}
+
+#header img#day_42 {
+	margin: 10px;
+	height: 110px;
+}
+
+#header img.button {
+	width: 20px;
+	height: 20px;
+}
+
+#header img#loupe {
+	bottom: -20px;
+	position: absolute;
+	right: 30px;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#header a#reload {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#header a#close {
+	position: absolute;
+	right: 10px;
+	bottom: 6px;
+}
+
+#menu {
+	width: 140px;
+	height: 416px;
+	background-color: #909090;
+	float: left;
+	margin: 0 20px 0 30px;
+	padding-top: 9px;
+}
+#menu img {
+	margin: 6px 33px 0 32px;
+	width: 70px;
+}
+#menu img.contour {
+	border: solid 5px #f00;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 1px 0 -5px 27px;
+}
+
+#content {
+	width: 1020px;
+	height: 582px;
+	background-color: #909090;
+	float: left;
+	margin: 0 10px;
+}
+
+#content img {
+	width: 1000px;
+	margin: 10px;
+}
+
+#info {
+	width: 140px;
+	height: 416px;
+	background-color: #909090;
+	float: left;
+	margin: 0 25px 0 20px;
+	padding-top: 9px;
+}
+
+#info img {
+	margin: 6px 33px 0 35px;
+	width: 70px;
+}
+
+#info #wall {
+
+	background: #fff url("resources/brick.jpg") repeat left top;
+	height: 70px;
+	width: 120px;
+	margin: 1px 10px 0;
+}
+
+#formulaire {
+	position: absolute;
+	margin: -75px 0 0 -45px;
+	width: 500px;
+	height: 130px;
+	background-color: #88FF89;
+	padding: 20px 10px;
+}
+
+#formulaire p {
+	margin: 2px 0;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+}
+
+#formulaire p span.big {
+	font-size: 29px;
+}
+
+#formulaire p span.wesh {
+	text-shadow: 3px 3px 5px #E30;
+}
+
+#formulaire p.toi-meme-tu-sais {
+	font-style: italic;
+}
+
+#formulaire input[type=text]{
+	width: 380px;
+	border: 2px inset #666;
+}

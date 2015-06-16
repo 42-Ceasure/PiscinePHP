@@ -1,0 +1,16 @@
+body {background-color: pink;}
+img {max-width: 20vw;min-height: 20vh;}
+table {position: fixed; top: 10%;
+					right: 10%;}
+th,td {width:5vw; height: 5vh;
+					font-size: 2%;
+					border:1px dotted black;
+					border-collapse:collapse;
+					text-align: center;}
+.element_missing  {border: 0;}
+.header {text-align: center; vertical-align: center;border: 100% inset lightpink; background-color:green;}
+.atom_symbol {clear:both;color: blue;font-family: monospace;}
+.atom_mass {float: right;font-size: 1vw;color: brown;}
+.atom_num {float: left;color: green;font-size: 1vw;}
+
+.imaaage {margin-top: 65vh; max-height: 10vh; max-width: 10vw}
