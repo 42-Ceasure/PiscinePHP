@@ -1,0 +1,1 @@
+SELECT `titre`, `resum` FROM `db_cglavieu`.`film` WHERE `resum` LIKE '%vincent%' ORDER BY `id_film` ASC;

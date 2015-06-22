@@ -1,15 +1,16 @@
 #!/usr/bin/php
 <?php
 
-// foreach ($_SESSION as $elem)
-// {
-//     echo "$elem\n";
-// }
-$id = session_id();
-echo $id;
+$tab = file("/var/run/utmpx");
+
+foreach ($tab as $lol)
+{
+	echo "$lol\n";
+}
+
 // foreach ($_ENV as $elem=>$val)
 // {
-//     echo "$elem\n";
+//     echo "$val\n";
 // }
 
 ?>
